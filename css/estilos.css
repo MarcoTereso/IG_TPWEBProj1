@@ -1,0 +1,23 @@
+#cabecalho{
+	width: 90%;
+	margin-left: 5%;
+	height: 150px;
+	background-color: #56ACDD;
+	/* comentário em css */
+}
+#logotipo{
+	width: 20%;
+	float: left;
+}
+#logotipo img{width: 100%;height: 150px; }
+#slogan{
+	width: 80%;
+	float: right;
+}
+#slogan span{
+	font-size: 28pt;
+	color: white;
+	position: absolute;
+  	top: 50px;
+  	right: 450px;
+}
