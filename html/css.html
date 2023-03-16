@@ -11,13 +11,30 @@
 <body>
 	<header>
 		<div id="cabecalho">
-			<div id="logotipo"><img src="img/logo.png"></div>
+			<div id="logotipo"><img src="../img/logo.png"></div>
 			<div id="slogan"><span>IG - Tecnologias e Práticas Web</span></div>
 		</div>
 		<a href="../index.html">Voltar à página principal</a>
 	</header>
 	<main>
+		<h1>Diferentes formas de incluir estilos</h1>
 		
+		<h2>CSS inline</h2>
+		<p style="color: green; background-color: yellow">Este parágrafo tem o texto cor verde e está sublinhado de amarelo</p>
+
+		<h2>CSS incorporado na própria página</h2>
+		<style type="text/css">
+			#linha{
+				font-size: 18pt;
+				font-weight: bold;
+				text-decoration: underline;
+				color: lightblue;
+			}
+		</style>
+		<p id="linha">Este parágrafo tem o texto cor verde e está sublinhado de amarelo</p>
+
+		<h2>CSS incorporado a partir de ficheiro externo</h2>
+		<p id="exemplo">Formatação a partir do ficheiro estilo.css</p>
 	</main>
 	<footer></footer>
 </body>
